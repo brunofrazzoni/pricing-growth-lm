@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planes de Pricing - Growth</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="pricing-hero">
+        <h1>Elige los servicios para armar tu plan de Growth</h1>
+        <p>Selecciona los servicios que necesitas y recibe una recomendación de paquete mensual.</p>
+        <div id="custom-plan-message" style="display: none;">
+            <p>Tu selección no coincide con un plan predefinido. Te recomendamos armar un plan personalizado.</p>
+            <a href="contacto.html" class="btn-primary">Contáctanos para tu plan personalizado</a>
+        </div>
+    </section>
+
+    <section id="services">
+        <h2>Servicios</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Especialidad</th>
+                    <th>Servicio</th>
+                    <th>Opción</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Holystic Marketing Specialist -->
+                <tr class="category"><td rowspan="6">Holystic Marketing Specialist</td>
+                    <td>Auditoría y Optimización SEO</td>
+                    <td><input type="checkbox" class="fixed-service-checkbox" data-price="2550000"></td>
+                </tr>
+                <tr><td>Configuración y ejecución de campañas Paid Media (Google Ads, Meta Ads)</td>
+                    <td><input type="checkbox" class="fixed-service-checkbox" data-price="3400000"></td>
+                </tr>
+                <tr><td>Estrategia de marketing de contenido</td>
+                    <td><input type="checkbox" class="fixed-service-checkbox" data-price="3000000"></td>
+                </tr>
+                <tr><td>Rediseño UX/UI de una landing page</td>
+                    <td><input type="checkbox" class="fixed-service-checkbox" data-price="2750000"></td>
+                </tr>
+                <tr><td>Configuración inicial de herramientas de automatización (Make.com, HubSpot, etc.)</td>
+                    <td><input type="checkbox" class="fixed-service-checkbox" data-price="800000"></td>
+                </tr>
+                <tr><td>Campañas Digitales</td>
+                    <td>
+                        <select class="service-dropdown">
+                            <option value="0">Selecciona una opción</option>
+                            <option value="900000">2 campañas</option>
+                            <option value="1600000">4 campañas avanzadas</option>
+                            <option value="2500000">Multicanal avanzada</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <!-- Consultoría -->
+                <tr class="category"><td rowspan="4">Consultoría</td><td>Benchmarking competitivo y recomendaciones</td>
+                    <td><input type="checkbox" class="fixed-service-checkbox" data-price="4250000"></td>
+                </tr>
+                <tr><td>Reuniones Estratégicas</td>
+                    <td>
+                        <select class="service-dropdown">
+                            <option value="0">Selecciona una opción</option>
+                            <option value="300000">Mensuales</option>
+                            <option value="500000">Quincenales</option>
+                            <option value="1200000">Semanales</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr><td>Soporte</td>
+                    <td>
+                        <select class="service-dropdown">
+                            <option value="0">Selecciona una opción</option>
+                            <option value="350000">5 horas/mes</option>
+                            <option value="600000">10 horas/mes</option>
+                            <option value="1200000">Prioritario e ilimitado</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr><td>Capacitación y Guía Técnica</td>
+                    <td>
+                        <select class="service-dropdown">
+                            <option value="0">Selecciona una opción</option>
+                            <option value="600000">1 sesión/mes</option>
+                            <option value="1600000">Talleres trimestrales</option>
+                        </select>
+                    </td>
+                </tr>
+        
+                <!-- Data Science -->
+                <tr class="category"><td rowspan="2">Data Science</td><td>Automatización</td>
+                    <td>
+                        <select class="service-dropdown">
+                            <option value="0">Selecciona una opción</option>
+                            <option value="600000">2 flujos simples</option>
+                            <option value="2000000">5 flujos avanzados</option>
+                            <option value="5000000">10 flujos complejos</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr><td>Reportería</td>
+                    <td>
+                        <select class="service-dropdown">
+                            <option value="0">Selecciona una opción</option>
+                            <option value="400000">Mensual</option>
+                            <option value="1000000">Dashboard actualizado</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <!-- Scrum Master -->
+                <tr class="category"><td rowspan="4">Scrum Master</td><td>Facilitación Ágil</td>
+                    <td>
+                        <select class="service-dropdown">
+                            <option value="0">Selecciona una opción</option>
+                            <option value="350000">Limitado</option>
+                            <option value="600000">Sí</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr><td>Gestión de Impedimentos</td>
+                    <td>
+                        <select class="service-dropdown">
+                            <option value="0">Selecciona una opción</option>
+                            <option value="400000">Sí</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr><td>Coaching de Equipos</td>
+                    <td>
+                        <select class="service-dropdown">
+                            <option value="0">Selecciona una opción</option>
+                            <option value="800000">Limitado</option>
+                            <option value="2000000">Sí</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr><td>Implementación de Metodologías Ágiles</td>
+                    <td>
+                        <select class="service-dropdown">
+                            <option value="0">Selecciona una opción</option>
+                            <option value="1600000">Limitado</option>
+                            <option value="2300000">Sí</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <!-- Product Owner -->
+                <tr class="category"><td rowspan="4">Product Owner</td><td>Gestión del Backlog</td>
+                    <td>
+                        <select class="service-dropdown">
+                            <option value="0">Selecciona una opción</option>
+                            <option value="800000">Limitado</option>
+                            <option value="2400000">Sí</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr><td>Definición de Roadmap</td>
+                    <td>
+                        <select class="service-dropdown">
+                            <option value="0">Selecciona una opción</option>
+                            <option value="1200000">Sí</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr><td>Priorización de Funcionalidades</td>
+                    <td>
+                        <select class="service-dropdown">
+                            <option value="0">Selecciona una opción</option>
+                            <option value="700000">Limitado</option>
+                            <option value="1500000">Sí</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr><td>Coordinación con Stakeholders</td>
+                    <td>
+                        <select class="service-dropdown">
+                            <option value="0">Selecciona una opción</option>
+                            <option value="600000">Limitado</option>
+                            <option value="1500000">Sí</option>
+                        </select>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <script src="script.js"></script>
+
+    <!-- Banner flotante para el total -->
+    <div id="floating-total-container">
+        <div id="floating-total-wrapper">
+            <span id="floating-total-text">Total: $0 CLP</span>
+            <span id="floating-suggestion-text">Selecciona servicios para ver recomendaciones.</span>
+        </div>
+        <div id="floating-button-container">
+            <!-- Google Calendar Appointment Scheduling -->
+            <link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
+            <script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+            <script>
+            (function() {
+                var target = document.currentScript;
+                window.addEventListener('load', function() {
+                    calendar.schedulingButton.load({
+                        url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ1y_02qd7uNAXvX_omW7NAoSKwoe6O_8jtSUuVkGE8PefDgIDHsxIgClB6hxS4XRQGSGrvzrJOZ?gv=true',
+                        color: '#039BE5',
+                        label: 'Agenda tu Consulta',
+                        target,
+                    });
+                });
+            })();
+            </script>
+        </div>
+    </div>
+</body>
+</html>
